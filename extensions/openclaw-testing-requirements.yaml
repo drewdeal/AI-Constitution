@@ -76,7 +76,7 @@ agent_behavioral_directives:
     - action: "block_if_necessary"
       description: "If changes to critical paths would leave them untested, recommend adding tests before proceeding."
     - action: "offer_assistance"
-      description: "Provide to create the necessary tests."
+      description: "Offer to create the necessary tests."
     - action: "document_rationale"
       description: "Explain why specific tests are needed for risk mitigation."
 

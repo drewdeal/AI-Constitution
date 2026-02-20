@@ -76,7 +76,7 @@ When an AI agent encounters insufficient test coverage:
 1. **Alert:** Clearly state which critical paths lack adequate coverage.
 2. **Recommend:** Suggest specific tests that should be added.
 3. **Block if Necessary:** If changes to critical paths would leave them untested, recommend adding tests before proceeding.
-4. **Offer Assistance:** Provide to create the necessary tests.
+4. **Offer Assistance:** Offer to create the necessary tests.
 5. **Document Rationale:** Explain why specific tests are needed for risk mitigation.
 
 ## Error Handling
