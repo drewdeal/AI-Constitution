@@ -34,6 +34,12 @@ including commercial and closed-source systems — without restriction.
 - `.gitignore` — Git ignore rules suitable for general development
 - `constitution.yaml` - Machine readable (YAML) of the core version
 - `constitution-annotated.yaml` — Machine readable (YAML) commentary version explaining rationale
+- `extensions/` — Domain-specific extension modules
+
+### Extensions
+
+- `extensions/openclaw-testing-requirements.md` — Testing and quality assurance requirements for OpenClaw development workflows
+- `extensions/openclaw-testing-requirements.yaml` — Machine-readable version of OpenClaw testing requirements
 
 ## Usage
 
@@ -44,6 +50,17 @@ You may:
 - Extend it with organization-specific guardrails
 - Integrate it into system prompts, agent configs, or policy layers
 - Embed it into documentation or governance structures
+
+### Using Extensions
+
+Extensions provide domain-specific policies that complement the core Constitution. To use an extension:
+
+1. Review the base Constitution to understand core principles
+2. Select relevant extensions for your use case (e.g., `openclaw-testing-requirements` for development workflows)
+3. Integrate both the Constitution and extensions into your AI system's configuration
+4. Customize thresholds and requirements to match your project's needs
+
+The OpenClaw Testing Requirements extension demonstrates how to apply the Constitution's core values (competence, security, honesty) to ensure AI agents maintain adequate test coverage for critical code paths.
 
 ## Contribution
 
